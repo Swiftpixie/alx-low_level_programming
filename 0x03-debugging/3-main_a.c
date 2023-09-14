@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-#include "date_functions.h"  // Include the header for the missing functions
+#include "date_functions.h"
 
-int main(void) {
+int main(void) 
+{
     int month;
     int day;
     int year;
