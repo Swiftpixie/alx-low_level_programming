@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sawp_int - take in two variable integres and swaps them
+ * swap_int - take in two variable integres and swaps them
  * @author Anisah
  *@a: swaps and stores adress of b
  *@b: swaps and stores adress of a
