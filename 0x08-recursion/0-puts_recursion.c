@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * __puts_recursion - function like puts();
+ * _puts_recursion - function like puts();
  * @s:input
+ * Description: This function prints each character of the input string
  * Return: Always 0 (Success)
  */
 
-void _puts_recursions(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
 		_putchar(*s);
-		_puts_recursions(s + 1);
+		_puts_recursion(s + 1);
 	}
 	else
 		_putchar('\n');
